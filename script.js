@@ -1,15 +1,19 @@
+const question = document.querySelector("#Questions");
 
-const question = document.querySelector("#Questions")
-question.innerHTML = "Quel est le président actuel ?"
-const a = document.querySelector("#question1")
-const b = document.querySelector("#question2")
-const c = document.querySelector("#question3")
+const start = document.querySelector("#start");
 
+const a = document.querySelector("#Question1");
+const b = document.querySelector("#Question2");
+const c = document.querySelector("#Question3");
 
+function commencerquiz() {
+  question.innerHTML = question1[0].question;
+  a.innerHTML = question1[0].answers[0];
+  b.innerHTML = question1[0].answers[1];
+  c.innerHTML = question1[0].answers[2];
+}
 
-
-
-
+function reponse(choix) {}
 
 const question1 = [
   {
@@ -50,3 +54,8 @@ const question5 = [
     correct: 1,
   },
 ];
+
+start.addEventListener("click", () => commencerquiz());
+a.addEventListener("click", () => reponse());
+b.addEventListener("click", () => reponse());
+c.addEventListener("click", () => reponse());
