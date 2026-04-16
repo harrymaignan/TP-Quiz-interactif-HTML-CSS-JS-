@@ -47,9 +47,9 @@ function EndoftheGame() {
     "Vous avez fini le quiz votre score final est de : " + score;
   scoreValide.style.display = "none";
   rejouer.style.display = "block";
-  a.disabled = true;
-  b.disabled = true;
-  c.disabled = true;
+ a.style.display = "none";
+  b.style.display = "none";
+  c.style.display = "none";
 }
 
 function replay() {
