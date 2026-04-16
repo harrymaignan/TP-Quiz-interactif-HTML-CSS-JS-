@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(fondd.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    background-color: blue;
+    width: 30%;
+    height: 650px;
+    box-shadow: 2px 2px 5px rgb(2, 76, 101);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Questions{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    width: 300px;
+    text-align: center;
+    font-weight: 600;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-top: 4rem
+}
+
+
+#start{
+    width: 150px ;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: rgb(44, 43, 43);
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+#start:hover{
+    background: rgb(83, 202, 250);
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#Question1{
+    width: 220px;
+    height: 45px;
+    background: rgb(83, 202, 250);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    
+}
+#Question1:hover{
+    transition: 0.5s;
+    border: none;
+    background: rgb(1, 45, 148);
+}
+#Question2{
+   width: 220px;
+    height: 45px;
+    background: rgb(83, 202, 250);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#Question2:hover{
+    transition: 0.5s;
+    border: none;
+    background: rgb(1, 45, 148);
+}
+#Question3{
+    width: 220px;
+    height: 45px;
+    background: rgb(83, 202, 250);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#Question3:hover{
+    transition: 0.5s;
+    border: none;
+    background: rgb(1, 45, 148);
+}
+
+#replay{
+   width: 220px;
+    height: 45px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    color: rgb(7, 86, 172);
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+#replay:hover{
+     background: rgb(83, 202, 250);
+     cursor: pointer;
+     transition: 0.5s;
+     color: white;
+}
+.Affiche{
+ background: white;
+ width: 200px;
+ border-radius: 10px;
+ border: none;
+ text-align: center;
+ margin-top: 4rem;
+ font-family: sans-serif;
+ font-size: 16px;
+}
