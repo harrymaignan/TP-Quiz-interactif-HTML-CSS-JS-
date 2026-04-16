@@ -1,3 +1,16 @@
+
+const question = document.querySelector("#Questions")
+question.innerHTML = "Quel est le président actuel ?"
+const a = document.querySelector("#question1")
+const b = document.querySelector("#question2")
+const c = document.querySelector("#question3")
+
+
+
+
+
+
+
 const question1 = [
   {
     question: "Quel est le président actuel ?",
